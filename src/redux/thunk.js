@@ -1,7 +1,7 @@
 import { createAsyncThunk } from "@reduxjs/toolkit";
 import { userInfo } from "../services/getUserInfo";
 
-export const daseCurrencyThunk = createAsyncThunk(
+export const baseCurrencyThunk = createAsyncThunk(
   "fetchBaseCurrency",
   async (crd, thunkAPI) => {
     const { baseName } = thunkAPI.getState();
