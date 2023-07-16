@@ -4,7 +4,7 @@ import Layout from "./components/Layout/Layout";
 import HomePage from "./pages/HomePage";
 import Rates from "./pages/Rates";
 import { useEffect } from "react";
-import { userInfo } from "./services/getUserInfo";
+// import { userInfo } from "./services/getUserInfo";
 import { useDispatch } from "react-redux";
 import { baseCurrencyThunk } from "./redux/thunk";
 
